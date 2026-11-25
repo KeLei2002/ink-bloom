@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh" translate="no">
+<head>
+<meta charset="utf-8">
+<title>墨染 Ink Bloom</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google" content="notranslate">
+<meta name="description" content="墨染 Ink Bloom: you are a drop of ink. Paint an old painting back while bookworms eat it blank.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23f1e8d2'/%3E%3Cpath d='M32 8c10 14 16 22 16 31a16 16 0 0 1-32 0c0-9 6-17 16-31z' fill='%231b1714'/%3E%3Ccircle cx='26' cy='40' r='3.5' fill='%23fff'/%3E%3Ccircle cx='38' cy='40' r='3.5' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+  @font-face { font-family: "MRBrush"; src: url("assets/fonts/brush.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "MRText"; src: url("assets/fonts/text.woff2") format("woff2"); font-weight: 200 900; font-display: block; }
+  html, body { margin: 0; height: 100%; background: #14181c; overflow: hidden; user-select: none; -webkit-user-select: none; }
+  canvas { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: block; }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1280" height="720"></canvas>
+<!--EMBED-->
+<script src="js/i18n.js"></script>
+<script src="js/assets.js"></script>
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/input.js"></script>
+<script src="js/ink.js"></script>
+<script src="js/entities.js"></script>
+<script src="js/boss.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/game.js"></script>
+<script>MR.boot();</script>
+</body>
+</html>
