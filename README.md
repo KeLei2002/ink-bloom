@@ -1,5 +1,7 @@
 # Ink Bloom · 墨染
 
+Ink Bloom is an AMCC5160 course project for Assignment 3, *Make Your Own Game*.
+
 Bookworms have eaten four paintings blank. Play as a drop of ink. Walk, spray and dash to uncover lotus leaves, tiny boats and birds hiding under the paper.
 
 [Play in English](http://47.237.175.21:8080/ink-bloom/?lang=en) · [玩中文版](http://47.237.175.21:8080/ink-bloom/?lang=zh)
